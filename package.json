@@ -1,18 +1,17 @@
 {
   "name": "web3",
   "namespace": "ethereum",
-  "version": "0.18.7",
+  "version": "0.18.14",
   "description": "Ethereum JavaScript API, middleware to talk to a ethereum node over RPC",
   "main": "./index.js",
   "directories": {
     "lib": "./lib"
   },
   "dependencies": {    
-    "crypto-js": "^3.1.4",		  
-    "utf8": "^2.1.1",		
-    "xhr2": "*",		
-    "xmlhttprequest": "*",
-    "bignumber.js": "*",
+    "crypto-js": "^3.1.4",
+    "utf8": "^2.1.1",
+    "xhr2": "*",
+    "xmlhttprequest": "*"
   },
   "browser": {
     "xmlhttprequest": "./lib/utils/browser-xhr.js"

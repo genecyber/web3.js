@@ -10,7 +10,8 @@
   "dependencies": {
     "utf8": "^2.1.1",
     "xhr2": "*",
-    "xmlhttprequest": "*"
+    "xmlhttprequest": "*",
+    "bignumber": "*"
   },
   "browser": {
     "xmlhttprequest": "./lib/utils/browser-xhr.js"
